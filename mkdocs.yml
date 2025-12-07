@@ -1,0 +1,70 @@
+site_name: Yerson Gallardo | Cloud Engineer
+site_url: https://ygallardops.github.io/devops-notes/
+site_author: Yerson Gallardo
+site_description: Notas técnicas sobre Cloud Engineering, DevOps y SRE.
+
+repo_name: ygallardops/devops-notes
+repo_url: https://github.com/ygallardops/devops-notes
+
+theme:
+  name: material
+  language: es
+  palette:
+    # Modo Oscuro por defecto
+    - scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    - scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+# Plugins para diagramas y búsqueda
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+
+# Menú de Navegación (Refleja tu CV)
+nav:
+  - Home: index.md
+  - Cloud:
+    - Azure (AKS & EntraID): azure/aks-troubleshooting.md
+    - AWS: aws/ec2-optimization.md
+  - IaC & Automation:
+    - Ansible: iac/ansible-patterns.md
+    - Terraform: iac/terraform-modules.md
+    - Python & Bash: scripting/python-boto3.md
+  - Certificaciones: certifications/az-900-summary.md
+
+# Tus Redes Sociales (Footer)
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ygallardops
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/yrgg96/
+    - icon: fontawesome/solid/envelope
+      link: mailto:ygallardops@proton.me
