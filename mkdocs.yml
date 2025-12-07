@@ -47,17 +47,24 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
-# Menú de Navegación (Refleja tu CV)
+# Menú de Navegación
 nav:
   - Home: index.md
-  - Cloud:
-    - Azure (AKS & EntraID): azure/aks-troubleshooting.md
-    - AWS: aws/ec2-optimization.md
+  - Azure:
+    # Apuntamos a la carpeta correcta: docs/azure/aks/
+    - 'AKS & Troubleshooting': azure/aks/troubleshooting-pods.md
+    # Comentamos esto hasta crear el archivo para evitar error de "File not found"
+    # - 'Entra ID': azure/entra-id/rbac-strategies.md
+  - AWS:
+    # Comentamos hasta crear el archivo
+    # - 'EC2 Optimization': aws/compute/ec2-optimization.md
+    - 'AWS Overview': aws/ # Apuntará a un index si existe, o déjalo comentado
   - IaC & Automation:
-    - Ansible: iac/ansible-patterns.md
-    - Terraform: iac/terraform-modules.md
-    - Python & Bash: scripting/python-boto3.md
-  - Certificaciones: certifications/az-900-summary.md
+    # Apuntamos a las carpetas nuevas
+    # - Ansible: iac/ansible/
+    # - Terraform: iac/terraform/
+    - 'Python Scripts': automation/python/
+  # - Certificaciones: certifications/az-900-summary.md
 
 # Tus Redes Sociales (Footer)
 extra:
