@@ -6,7 +6,7 @@
 
 Este repositorio contiene una colección de notas, guías y documentación técnica sobre herramientas y prácticas de DevOps. El sitio se genera utilizando **MkDocs** junto con el tema **Material for MkDocs**, permitiendo una documentación limpia, modular y fácilmente navegable.
 
-## Ver Documentación Online
+## Ver Documentación online
 
 El sitio web completo, con buscador y modo oscuro, está disponible aquí:
 
@@ -22,7 +22,7 @@ El sitio web completo, con buscador y modo oscuro, está disponible aquí:
 - **Configuración Extensible:** Soporte para extensiones como `pymdown-extensions`, resaltado de sintaxis y navegación avanzada.
 - **Desarrollo Local Sencillo:** MkDocs incluye un servidor local de auto-recarga para edición en tiempo real.
 
-## Estructura del Repositorio
+## Estructura del repositorio
 
     .
     ├── mkdocs.yml               # Configuración principal del sitio
@@ -59,7 +59,7 @@ El sitio estará disponible en:
 
     http://127.0.0.1:8000
 
-## Despliegue Automático (CI/CD)
+## Despliegue automático (CI/CD)
 
 Este repositorio utiliza GitHub Actions para compilar y desplegar el
 sitio.  
@@ -69,7 +69,7 @@ Cada push a la rama `main` ejecuta el workflow `deploy.yml`, el cual:
 2.  Construye el sitio usando `mkdocs build`.
 3.  Publica automáticamente los artefactos en GitHub Pages.
 
-## Archivos Principales
+## Archivos principales
 
 | Archivo                        | Descripción                                                     |
 |--------------------------------|-----------------------------------------------------------------|
@@ -81,5 +81,5 @@ Cada push a la rama `main` ejecuta el workflow `deploy.yml`, el cual:
 
 ## Licencia
 
-MIT
+MIT License
 
