@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/github/license/ygallardops/devops-notes)
 ![MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=flat&logo=MaterialForMkDocs&logoColor=white)
 
-Este repositorio contiene una colección estructurada de notas, guías y documentación técnica sobre herramientas y prácticas de DevOps. El sitio se genera utilizando **MkDocs** junto con el tema **Material for MkDocs**, permitiendo una documentación limpia, modular y fácilmente navegable.
+Este repositorio contiene una colección de notas, guías y documentación técnica sobre herramientas y prácticas de DevOps. El sitio se genera utilizando **MkDocs** junto con el tema **Material for MkDocs**, permitiendo una documentación limpia, modular y fácilmente navegable.
 
 ## Ver Documentación Online
 
@@ -28,8 +28,8 @@ El sitio web completo, con buscador y modo oscuro, está disponible aquí:
     ├── mkdocs.yml               # Configuración principal del sitio
     ├── requirements.txt         # Dependencias necesarias para MkDocs
     ├── docs/
-    │   ├── index.md             # Página principal (Home)
-    │   └── ...                  # Contenido adicional organizado en secciones
+    │   ├── index.md             # Página principal
+    │   └── ...                  # 
     └── .github/
         └── workflows/
             └── deploy.yml       # Pipeline para GitHub Pages
