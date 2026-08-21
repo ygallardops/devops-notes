@@ -1,19 +1,19 @@
-# Bienvenido a mi Base de Conocimiento
+# Notas de troubleshooting en Azure y AWS
 
-Hola, soy **Yerson Gallardo**, Cloud Engineer enfocado en **Azure, AWS y Automatización**.
+Apuntes que recopilé mientras trabajaba en soporte y operación de infraestructura (N1 y N2) sobre Azure, AWS y on-premises. Son notas de estudio y consulta personal, no una guía de referencia ni un entregable profesional.
 
-Este repositorio sirve como mi "segundo cerebro" y documentación técnica de los desafíos que resuelvo día a día en entornos críticos de banca y servicios TI.
+Hoy trabajo en la Unidad de Registros Médicos de un hospital de EsSalud, en Trujillo, Perú, en automatización y mejora de procesos documentales. Lo que hago ahora está en [yersongallardo.com](https://yersongallardo.com).
 
-## 🚀 Áreas de Enfoque
+## Qué hay aquí
 
-* **Cloud Computing:** Gestión de infraestructura crítica en Azure (AKS, Entra ID) y AWS.
-* **Infrastructure as Code:** Automatización con Ansible y Terraform.
-* **SRE & Observabilidad:** Monitoreo con New Relic, Azure Monitor y CloudWatch.
-* **Automatización:** Scripting avanzado en Python y Bash para reducir tareas operativas.
+* **Azure** — [AKS y diagnóstico de Pods](azure/aks/troubleshooting-pods.md)
 
-## 🛠 Proyectos Destacados
+Poco más, por ahora. Prefiero dejarlo así antes que anunciar secciones que no existen.
 
-* [**Ansible Playbooks**](https://github.com/ygallardops/ansible-playbooks): Un framework completo para aprovisionamiento de servidores multi-OS (Linux) con seguridad fuerte.
+## Otros repositorios
+
+* [**conoce-tu-enfermero-demo**](https://github.com/ygallardops/conoce-tu-enfermero-demo) — Prototipo serverless desplegado, con CodeQL, OWASP ZAP, Dependabot y contrato OpenAPI.
+* [**ansible-playbooks**](https://github.com/ygallardops/ansible-playbooks) — Playbooks de práctica para configuración de servidores Linux, Docker y hardening básico.
 
 ---
-*Documentación generada automáticamente con [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).*
+*Documentación generada con [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).*

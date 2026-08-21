@@ -1,6 +1,6 @@
 # Guía de Diagnóstico: Resolución de Incidentes en AKS
 
-Esta guía documenta el procedimiento estándar para diagnosticar y mitigar errores en Pods dentro de Azure Kubernetes Service (AKS), basado en incidencias reales de producción.
+Esta guía documenta el procedimiento estándar para diagnosticar y mitigar errores en Pods dentro de Azure Kubernetes Service (AKS), basado en incidencias que atendí en soporte de infraestructura.
 
 ## 1. Flujo de Diagnóstico Visual
 
@@ -34,7 +34,7 @@ kubectl top pod <nombre-del-pod>
 
 Generalmente indica un error en el código de la aplicación o una mala configuración de variables de entorno.
 
-!!! failure "Causa raíz frecuente en entornos bancarios"
+!!! failure "Causa raíz frecuente en entornos restringidos"
     En entornos restringidos, muchas veces la aplicación falla porque no puede conectar a la Base de Datos (Azure SQL) debido a reglas de Network Security Groups (NSG) o falta de whitelist en el Firewall.
 
 ```bash
@@ -45,7 +45,8 @@ kubectl exec -it <pod> -- nc -zv <sql-server-url> 1433
 
 Indica que el scheduler no encuentra ningún nodo donde ubicar el pod.
 
-!!! warning "Ojo con los Recursos" Si definimos resources.requests muy altos (ej. 4GB RAM) y los nodos son pequeños (Standard_DS2_v2), el pod nunca se agendará.
+!!! warning "Ojo con los Recursos"
+    Si definimos `resources.requests` muy altos (ej. 4GB RAM) y los nodos son pequeños (Standard_DS2_v2), el pod nunca se agendará.
 
 ## 4. Automatización Relacionada
 

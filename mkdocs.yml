@@ -1,7 +1,7 @@
-site_name: Yerson Gallardo | Cloud Engineer
+site_name: Yerson Gallardo | Notas de infraestructura
 site_url: https://ygallardops.github.io/devops-notes/
 site_author: Yerson Gallardo
-site_description: Notas técnicas sobre Cloud Engineering, DevOps y SRE.
+site_description: Apuntes de troubleshooting en Azure y AWS recopilados durante mi trabajo en soporte de infraestructura.
 
 repo_name: ygallardops/devops-notes
 repo_url: https://github.com/ygallardops/devops-notes
