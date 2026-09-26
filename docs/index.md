@@ -1,6 +1,6 @@
-# Notas de troubleshooting en Azure y AWS
+# Notas de troubleshooting en Azure
 
-Apuntes que recopilé mientras trabajaba en soporte y operación de infraestructura (N1 y N2) sobre Azure, AWS y on-premises. Son notas de estudio y consulta personal, no una guía de referencia ni un entregable profesional.
+Apuntes que recopilé mientras trabajaba en soporte y operación de infraestructura, en primer y segundo nivel, sobre Azure, AWS y on-premises. Son notas de estudio y consulta personal, no una guía de referencia ni un entregable profesional.
 
 Hoy trabajo en la Unidad de Registros Médicos de un hospital de EsSalud, en Trujillo, Perú, en automatización y mejora de procesos documentales. Lo que hago ahora está en [yersongallardo.com](https://yersongallardo.com).
 
